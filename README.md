@@ -1,10 +1,10 @@
 # Credit-Card-Default
-#Problem
+# Problem
 In recent years, the credit card issuers in Taiwan faced the cash and credit card debt crisis and the delinquency is expected to peak in the third quarter of 2006 (Chou,2006). In order to increase market share, card-issuing banks in Taiwan over-issued cash and credit cards to unqualified applicants. At the same time, most cardholders, irrespective of their repayment ability, overused credit card for consumption and accumulated heavy credit and cash–card debts. The crisis caused the blow to consumer finance confidence and it is a big challenge for both banks and cardholders
 
-#About Dataset
-There are 25 variables:
-ID: ID of each client
+# About Dataset
+There are 25 variables: \
+ID: ID of each client\
 LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit
 SEX: Gender (1=male, 2=female)
 EDUCATION: (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
@@ -30,7 +30,7 @@ PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
 PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
 default.payment.next.month: Default payment (1=yes, 0=no)
 
-#Approach
+# Approach
 To apply different ML algorithms and to find which works best on this dataset.
 Data dosen't contain any NAN values. Irrelevant columns were removed from the data.
 Data is viualized using Seaborn.
